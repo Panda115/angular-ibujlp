@@ -1,5 +1,5 @@
-import {Component} from '@angular/core';
-import {MatSnackBar} from '@angular/material';
+import { Component } from '@angular/core';
+import { MatSnackBar } from '@angular/material';
 
 /**
  * @title Basic snack-bar
@@ -14,11 +14,10 @@ export class SnackBarOverviewExample {
 
   openSnackBar(message: string, action: string) {
     this.snackBar.open(message, action, {
-      duration: 2000,
+      duration: null,
     });
   }
 }
-
 
 /**  Copyright 2018 Google Inc. All Rights Reserved.
     Use of this source code is governed by an MIT-style license that
